@@ -1,0 +1,30 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user8013:password@localhost:8013/eureka/,http://user8014:password@localhost:8014/eureka/,http://user8015:password@localhost:8015/eureka/
+#    eureka-server-port: 8016
+  instance:
+    preferIpAddress: true
+    instance-id: snowflake-1
+server:
+  port: 8634
+spring:
+  application:
+    name: snowflake
+  profiles: first
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user8013:password@localhost:8013/eureka/,http://user8014:password@localhost:8014/eureka/,http://user8015:password@localhost:8015/eureka/
+#    eureka-server-port: 8016
+  instance:
+    preferIpAddress: true
+    instance-id: snowflake-2
+server:
+  port: 8635
+spring:
+  application:
+    name: snowflake
+  profiles: second
