@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SnowflakeApplication {
+public class CommonToolsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SnowflakeApplication.class, args);
+		SpringApplication.run(CommonToolsApplication.class, args);
 	}
 }

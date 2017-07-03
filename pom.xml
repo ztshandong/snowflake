@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zhangtao</groupId>
-	<artifactId>snowflake</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>commontools</artifactId>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>snowflake</name>
-	<description>Twitter SnowFlake IDWorker</description>
+	<name>commontools</name>
+	<description>Common Tools</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -54,6 +54,24 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.33</version>
 		</dependency>
 	</dependencies>
 

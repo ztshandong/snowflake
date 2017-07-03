@@ -6,12 +6,12 @@ eureka:
 #    eureka-server-port: 8016
   instance:
     preferIpAddress: true
-    instance-id: snowflake-1
+    instance-id: commontools-1
 server:
   port: 8634
 spring:
   application:
-    name: snowflake
+    name: commontools
   profiles: first
 ---
 eureka:
@@ -21,10 +21,10 @@ eureka:
 #    eureka-server-port: 8016
   instance:
     preferIpAddress: true
-    instance-id: snowflake-2
+    instance-id: commontools-2
 server:
   port: 8635
 spring:
   application:
-    name: snowflake
+    name: commontools
   profiles: second
